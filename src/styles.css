@@ -6,54 +6,56 @@ body {
   font-family: sans-serif;
   margin: 20px;
   padding: 0;
+  background-color: #f4f4f9; /* Light background for the body */
 }
 
 h1 {
   margin-top: 0;
   font-size: 22px;
+  color: #333; /* Dark color for header */
 }
 
 h2 {
   margin-top: 0;
   font-size: 20px;
+  color: #444; /* Slightly lighter for h2 */
 }
 
 h3 {
   margin-top: 0;
   font-size: 18px;
+  color: #555; /* Even lighter for h3 */
 }
 
 h4 {
   margin-top: 0;
   font-size: 16px;
+  color: #666; /* Even lighter for h4 */
 }
 
 h5 {
   margin-top: 0;
   font-size: 14px;
+  color: #777; /* Lighter for h5 */
 }
 
 h6 {
   margin-top: 0;
   font-size: 12px;
+  color: #888; /* Lightest for h6 */
 }
 
 code {
   font-size: 1.2em;
+  color: #d14; /* Bright color for code */
+  background-color: #f0f0f0; /* Light background for code blocks */
+  padding: 2px 4px;
+  border-radius: 4px;
 }
 
 ul {
   padding-inline-start: 20px;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: sans-serif;
-  margin: 20px;
-  padding: 0;
+  color: #555; /* Dark gray for list items */
 }
 
 .square {
@@ -69,6 +71,13 @@ body {
   padding: 0;
   text-align: center;
   width: 34px;
+  background-color: #4CAF50; /* Green background for square */
+  color: white; /* White text for contrast */
+  transition: background-color 0.3s ease; /* Smooth color transition */
+}
+
+.square:hover {
+  background-color: #45a049; /* Slightly darker green on hover */
 }
 
 .board-row:after {
@@ -79,12 +88,20 @@ body {
 
 .status {
   margin-bottom: 10px;
+  font-size: 16px;
+  color: #4CAF50; /* Green color for status */
 }
+
 .game {
   display: flex;
   flex-direction: row;
+  background-color: #fff; /* White background for the game section */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
 }
 
 .game-info {
   margin-left: 20px;
+  color: #333; /* Dark text color for game info */
 }
